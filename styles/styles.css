@@ -131,9 +131,31 @@ label:last-child {
 
 /* --------- table styles below here --------- */
 
+table, th, td {
+	border: 1px solid black;
+}
 
 /* --------- unordered list styles below here --------- */
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    display: block;
+    color: white;
+    text-align: center;
+   	padding: 10px;
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: purple;
+}
 
 /* --------- definition list styles below here --------- */
 
